@@ -1,6 +1,50 @@
 # QuimiLab EDU
 
-QuimiLab EDU es una aplicación educativa de química orientada a estudiantes de nivel secundario y docentes. Integra cálculo químico, preparación de laboratorio, consulta de sustancias y materiales, tabla periódica e informes finales en PDF dentro de una misma herramienta.
+**Química y laboratorio, paso a paso.**
+
+QuimiLab EDU es una plataforma educativa interactiva desarrollada para integrar **química, cálculo, laboratorio, seguridad y tecnología** en una misma herramienta digital.
+
+Está orientada especialmente a estudiantes de **4.º, 5.º, 6.º y 7.º año de escuelas secundarias técnicas**, docentes de química y espacios de formación vinculados con prácticas de laboratorio.
+
+## 🌐 Probar la plataforma
+
+### QuimiLab EDU Web
+**Acceso público:**  
+https://quimilab-eduvercelapp.vercel.app
+
+No requiere instalación, Expo Go ni software adicional. Puede utilizarse directamente desde computadora, tablet o teléfono mediante un navegador web.
+
+## 📱 Versiones del proyecto
+
+### Versión Web
+Repositorio:  
+https://github.com/ibanezmariela78-lab/quimilab-web
+
+### Versión Mobile
+Repositorio:  
+https://github.com/ibanezmariela78-lab/quimilab
+
+La versión móvil fue desarrollada con React Native y Expo. El build de producción para Android ya fue generado y se encuentra preparado para una futura publicación en Google Play.
+
+## 💡 ¿Qué permite hacer QuimiLab EDU?
+
+- Resolver cálculos químicos.
+- Preparar soluciones y otras experiencias de laboratorio.
+- Trabajar con molaridad, molalidad, normalidad, formalidad y porcentajes.
+- Resolver diluciones y concentraciones traza.
+- Calcular preparaciones a partir de reactivos comerciales.
+- Consultar los 118 elementos de la tabla periódica.
+- Investigar propiedades de sustancias.
+- Consultar instrumental y materiales de laboratorio.
+- Incorporar criterios de seguridad química.
+- Generar informes finales de laboratorio en PDF.
+- Relacionar el cálculo teórico con la práctica experimental.
+
+## 🎯 Necesidad que dio origen al proyecto
+
+QuimiLab EDU surge a partir de una problemática frecuente en la enseñanza de la química: el estudiante puede aprender una fórmula y obtener un resultado numérico sin comprender completamente cómo ese cálculo se relaciona con una situación real de laboratorio.
+
+La plataforma busca reducir esa distancia entre **teoría y práctica**, ayudando a interpretar qué se calcula, qué sustancias intervienen, qué instrumental se necesita, qué precauciones deben considerarse y cómo documentar correctamente una experiencia.
 
 ## Objetivo
 
