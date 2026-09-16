@@ -116,17 +116,139 @@ QuimiLab EDU tiene un enfoque educativo.
 
 Las sustancias o procedimientos que pueden implicar riesgo se presentan de manera teórica y con advertencias. La aplicación no reemplaza la supervisión docente, las normas institucionales ni los protocolos de seguridad de laboratorio.
 
-## Tecnologías utilizadas
+## Tecnologías y herramientas utilizadas
 
-- React Native
-- Expo
+QuimiLab EDU fue desarrollado combinando herramientas de programación, desarrollo móvil, desarrollo web, control de versiones, validación, compilación y despliegue.
+
+### Lenguajes y tecnologías base
+
 - TypeScript
+- JavaScript
+- React 19
+- React DOM
+- React Native
+- React Native Web
+
+### Ecosistema Expo
+
+- Expo SDK 57
 - Expo Router
+- Expo Constants
+- Expo File System
+- Expo Font
+- Expo Haptics
+- Expo Image
+- Expo Linking
+- Expo Print
+- Expo Sharing
+- Expo Splash Screen
+- Expo Status Bar
+- Expo Symbols
+- Expo System UI
+- Expo Web Browser
+- Expo Vector Icons
+- Expo/ngrok
+
+### Navegación, interfaz y almacenamiento
+
+- React Navigation Native
+- React Navigation Bottom Tabs
+- React Navigation Elements
+- React Native Gesture Handler
+- React Native Reanimated
+- React Native Safe Area Context
+- React Native Screens
+- React Native Worklets
 - AsyncStorage
+
+### Desarrollo y ejecución
+
+- Node.js
+- npm
+- Visual Studio Code
+- PowerShell
+- Windows
+- Metro Bundler
+- Expo Go durante desarrollo y pruebas
+- Navegadores web para pruebas
+- `serve` para pruebas locales de la exportación web
+
+### Desarrollo web
+
+- Expo Web
+- React Native Web
+- Exportación estática mediante `expo export --platform web`
+- Directorio de producción `dist`
+- Vercel
+- Integración GitHub → Vercel
+- Despliegue continuo desde el repositorio web
+
+### Desarrollo y compilación móvil
+
+- EAS CLI
+- EAS Build
+- Android Keystore administrado mediante EAS
+- Build de producción Android en formato AAB
+- Configuración de producción para Android
+- Configuración de proyecto para iOS
+
+### Control de versiones
+
+- Git
+- GitHub
+- Repositorio independiente para versión móvil
+- Repositorio independiente para versión web
+
+### Calidad, revisión y validación
+
+- TypeScript Compiler (`tsc`)
+- ESLint
+- eslint-config-expo
+- Expo Doctor
+- `git diff --check`
+- Validaciones de compilación web
+- Pruebas funcionales en Android
+- Pruebas funcionales en navegador
+- Revisión visual responsiva
+
+### Generación y gestión de documentos
+
 - expo-print
 - expo-sharing
 - expo-file-system
+- Generación de informes finales en PDF
+- Persistencia de borradores con AsyncStorage
 
+### Diseño e identidad visual
+
+- Procesamiento de imágenes mediante PowerShell y System.Drawing
+- Recursos gráficos PNG
+- Configuración de iconos adaptativos Android
+- Splash screen
+- Favicon web
+- Diseño responsivo para móvil y escritorio
+
+### Inteligencia artificial aplicada al desarrollo
+
+- ChatGPT / OpenAI como asistencia durante planificación, programación, depuración, documentación, revisión científica, diseño de interfaz y desarrollo del proyecto
+
+### Infraestructura y publicación
+
+- GitHub para código fuente y documentación
+- Vercel para hosting de la versión web
+- Expo Application Services (EAS) para builds móviles
+- Google Play Console preparada para futura publicación Android
+- LinkedIn para presentación profesional del proyecto
+
+### Plataformas y dispositivos utilizados para pruebas
+
+- Android
+- iPhone durante desarrollo con Expo Go
+- Windows
+- Chrome
+- Edge
+- Navegadores móviles
+- Navegadores de escritorio
 ## Estructura general
 
 ```text
